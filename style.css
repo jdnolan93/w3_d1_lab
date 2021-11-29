@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body > header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+}
+
+body > header > h1 {
+    padding-left: 16px;
+    color: white;
+}
+
+body > header > nav > ul {
+    margin: 0;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+
+body > header > nav > ul > li > a {
+    padding-right: 8px;
+    color: white;
+}
+
+body > main > aside {
+    margin: auto;
+    width: 60%;
+    display: flex;
+}
+
+body > main {
+    margin:auto;
+    width:70%
+}
+
