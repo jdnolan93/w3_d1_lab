@@ -39,3 +39,15 @@ body > main {
     width:70%
 }
 
+img {
+    float:left;
+}
+
+body > main > aside > section > nav > p {
+    float:right;
+}
+
+.story {
+    float:right;
+}
+
